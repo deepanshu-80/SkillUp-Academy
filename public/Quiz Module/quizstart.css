@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', 'sans-serif';
+    box-sizing:  border-box;
+    font-size: 25px;
+}
+body{
+    background: #eaeaf2;
+     background-image: url("rm183-wan-11.jpg");
+    background-size: cover; 
+
+}
+.app{
+    background: #a69d76;
+    width: 90%;
+    max-width: 1000px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 70px;
+}
+.home{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-content{
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.home-content h1 {
+    color: #0a0909;
+    padding-top: 10;
+    background: #a69d76;
+    width: 700px;
+    height: 75px;
+    font-size: 65px;
+    font-weight: 700;
+    /* text-shadow: 0 0 10px rgba(3, 3, 3, 0.3); */
+
+}
+.home-content p{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.home-content .start-btn{
+    color:floralwhite;
+    display:inline-block;
+    width: 200px;
+    height: 55px;
+    background: yellow;
+    border: 2px solid #fff;
+    outline: none;
+    margin-left: 200px;
+    cursor: pointer;
+    
+
+}
+.home-content .start-btn:hover {
+    background: rgb(21, 227, 90);
+    box-shadow: none;
+
+}
+.go-home-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #126cf3; /* Normal color (e.g., orange) */
+  border: none;
+  border-radius: 8px;
+}
+
+.go-home-btn a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.go-home-btn:hover {
+  background-color: #d35400; /* Hover color (e.g., darker orange) */
+}
